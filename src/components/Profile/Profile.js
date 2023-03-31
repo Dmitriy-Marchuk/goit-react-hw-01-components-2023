@@ -6,7 +6,7 @@ import {
   Location,
   StatsList,
   StatsElement,
-  MainContainer,
+  Description,
 } from './Profile.styled';
 
 export const Profile = ({
@@ -20,12 +20,12 @@ export const Profile = ({
 }) => {
   return (
     <Wrapper>
-      <MainContainer>
+      <Description>
         <Avatar src={avatar} alt="avatar"></Avatar>
         <Username>{username}</Username>
         <Tag>@{tag}</Tag>
         <Location>{location}</Location>
-      </MainContainer>
+      </Description>
       <StatsList>
         <StatsElement>
           <p>Followers:</p>

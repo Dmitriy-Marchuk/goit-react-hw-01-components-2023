@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   box-shadow: 5px 5px 5px rgba(104, 104, 104, 0.15);
 `;
 
-export const MainContainer = styled.div`
+export const Description = styled.div`
   padding: 70px 70px 0 70px;
 `;
 
