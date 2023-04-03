@@ -1,4 +1,5 @@
 import { FriendItem, Active, NoActive } from './FriendListItem.styled';
+import PropTypes from 'prop-types';
 
 export default function FriendListItem({ name, status, avatar }) {
   return (
@@ -9,3 +10,9 @@ export default function FriendListItem({ name, status, avatar }) {
     </FriendItem>
   );
 }
+
+FriendListItem.propTypes = {
+  avatar: PropTypes.string,
+  status: PropTypes.bool,
+  name: PropTypes.string,
+};

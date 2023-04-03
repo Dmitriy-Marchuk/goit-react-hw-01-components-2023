@@ -1,6 +1,8 @@
 import StatisticsElement from './StatisticsElement';
 import { SectionStatistics, StatisticsList } from './Statistics.styled';
 import { Title } from './Statistics.styled';
+import PropTypes from 'prop-types';
+
 export default function Statistics({ data, title }) {
   return (
     <SectionStatistics>
@@ -17,3 +19,7 @@ export default function Statistics({ data, title }) {
     </SectionStatistics>
   );
 }
+
+Statistics.Statistics = {
+  data: PropTypes.array,
+};

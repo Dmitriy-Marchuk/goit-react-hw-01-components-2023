@@ -1,4 +1,5 @@
 import { TransactionItem } from './Transaction.styled';
+import PropTypes from 'prop-types';
 
 export default function Transaction({ type, amount, currency }) {
   return (
@@ -9,3 +10,9 @@ export default function Transaction({ type, amount, currency }) {
     </TransactionItem>
   );
 }
+
+Transaction.propTypes = {
+  type: PropTypes.string,
+  amount: PropTypes.string,
+  currency: PropTypes.string,
+};

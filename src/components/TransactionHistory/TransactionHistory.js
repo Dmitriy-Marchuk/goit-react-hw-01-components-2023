@@ -1,4 +1,6 @@
 import Transaction from './Transaction';
+import PropTypes from 'prop-types';
+
 import {
   TransactionHistoryTable,
   TransactionHead,
@@ -28,3 +30,7 @@ export default function TransactionHistory({ items }) {
     </TransactionHistoryTable>
   );
 }
+
+TransactionHistory.propTypes = {
+  items: PropTypes.array,
+};

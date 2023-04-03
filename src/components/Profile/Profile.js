@@ -8,6 +8,7 @@ import {
   StatsElement,
   Description,
 } from './Profile.styled';
+import PropTypes from 'prop-types';
 
 export const Profile = ({
   user: {
@@ -44,4 +45,12 @@ export const Profile = ({
   );
 };
 
-Profile.protoTypes = {};
+Profile.propTypes = {
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
+};
