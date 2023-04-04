@@ -2,7 +2,7 @@
   "name": "goit-react-hw-01-components-2023",
   "version": "0.1.0",
   "private": true,
-  "homepage": "git@github.com:Dmitriy-Marchuk/goit-react-hw-01-components-2023.git",
+  "homepage": "https://dmitriy-marchuk.github.io/goit-react-hw-01-components-2023/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
