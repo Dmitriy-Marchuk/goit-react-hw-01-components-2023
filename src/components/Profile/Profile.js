@@ -46,8 +46,8 @@ export const Profile = ({
 };
 
 Profile.propTypes = {
-  username: PropTypes.string,
   tag: PropTypes.string,
+  username: PropTypes.string,
   location: PropTypes.string,
   avatar: PropTypes.string,
   followers: PropTypes.number,
