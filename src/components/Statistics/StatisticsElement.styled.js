@@ -5,7 +5,7 @@ export const StatisticsItem = styled.li`
   flex-direction: column;
   padding: 10px;
   width: calc(100% / 4);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
 
   :not(:last-child) {

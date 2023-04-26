@@ -12,7 +12,7 @@ export const TransactionHead = styled.thead`
   background-color: rgba(17, 17, 17, 0.067);
 
   th {
-    padding: 20px 40px;
+    padding: 10px 20px;
     width: calc(100% / 3);
   }
 `;

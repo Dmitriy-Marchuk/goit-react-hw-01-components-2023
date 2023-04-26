@@ -10,11 +10,11 @@ export const Wrapper = styled.div`
 `;
 
 export const Description = styled.div`
-  padding: 70px 70px 0 70px;
+  padding: 20px 20px 0 20px;
 `;
 
 export const Avatar = styled.img`
-  max-height: 250px;
+  max-height: 150px;
   border-radius: 50%;
   background-color: #fff;
   margin-left: auto;
@@ -22,7 +22,7 @@ export const Avatar = styled.img`
 `;
 
 export const Username = styled.h2`
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 30px;
 `;
 
@@ -43,7 +43,7 @@ export const StatsElement = styled.li`
   padding: 10px;
   align-items: center;
   width: calc(100% / 3);
-  font-size: 20px;
+  font-size: 13px;
   font-weight: 700;
   border-top: 1px solid rgb(104, 104, 104);
   background-color: #fff;

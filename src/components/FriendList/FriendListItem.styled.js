@@ -5,7 +5,7 @@ export const FriendItem = styled.li`
   align-items: center;
   border: 1px solid black;
   border-radius: 25px;
-  padding: 10px 50px;
+  padding: 10px 20px;
   background-color: rgba(17, 17, 17, 0.067);
   box-shadow: rgba(104, 104, 104, 0.15) 5px 5px;
   :not(:first-child) {
